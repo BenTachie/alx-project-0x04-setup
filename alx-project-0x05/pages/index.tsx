@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home() {
   const router = useRouter();
 
-  // Imperative routing with useRouter
+  // Imeperative routing with useRouter
   const routeToNextPage = ({ pageRoute }: PageRouteProps) => {
     router.push(pageRoute, undefined, { shallow: false });
   };
